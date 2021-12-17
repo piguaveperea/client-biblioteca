@@ -1,6 +1,10 @@
 <template>
     <div>
-        <card-sign-in @sendUser="auth"/>
+        <br>
+        <v-row justify="center" align="center" >
+           <card-sign-in @sendUser="auth"/>
+        </v-row>
+       
     </div>
 </template>
 <script>
